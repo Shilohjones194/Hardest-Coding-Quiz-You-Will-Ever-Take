@@ -22,7 +22,7 @@
 
 //array of questions objects
 var myQuestions = [{
-        question: "Question 1/3: What is the worst thing about this bootcamp?",
+        question: "Question 1/3: ",
         answers: {
             a: "TAs",
             b: "Modules",
@@ -31,27 +31,39 @@ var myQuestions = [{
         correctAnswer: "b"
     },
     {
-        question: "Question 2/3: Do you regret taking this course?",
+        question: "Question 2/3: ",
         answers: {
-            a: "yes",
-            b: "no",
+            a: "Yes",
+            b: "No",
             c: "Every day of my life"
         },
         correctAnswer: "c"
     },
     {
-        question: "Question 3/3: If it wasn't for the TAs, Youtube and Google, do you think you would have failed?",
+        question: "Question 3/3: ",
         answers: {
             a: "Yes",
             b: "No",
-            c: "probably",
+            c: "Probably",
         },
         correctAnswer: "a"
     },
-
 ];
 
-var sekectuibs
+function showQuestions(questions, quizContainer){
+    var output = [];
+    var answers;
+
+    //for each question
+    for(var i=0; i<questions.length; i++){
+
+        // first reset the list of answers
+        answers = [];
+
+        //for each available answer to this question...
+        for(letter in questions[i].answers){}
+    }
+}
 
 
 
